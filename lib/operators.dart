@@ -1,5 +1,5 @@
 void main(){
-  //arithematic
+
   dynamic s=8,t=2;
   print('Arithmetic operation');
   print('s+t =${s+t}');
@@ -61,4 +61,36 @@ void main(){
   print(c<<2);//0000 0101<<2 =>0001 01=>0001 0100=20
 
 
+  dynamic data =20;
+  print(data is String);
+
+
+
+  print('ternary operators');
+  //syntax ==>   condition ? true statement : false statement;
+  var age =20;
+  var result =age>=18? "eligible to vote":"not eligible to vote";
+  print(result);
+
+var marks=40;
+var results= marks < 40? "passed":"failed";
+print(results);
+
+var username='admin';
+  var password=1234;
+  var login=(username=='admin'&&password==1234)?"login successfully":"failed to login";
+print(login);
+
+
+
+//largest of two numbers using ternary operators
+var largest=(12>15)? 12:15;
+print('largest is $largest');
+
+
+
+//3numbers
+int u=16,v=18,w=33;
+var largest2 = (u>v)?(u>w ?u:w):(v>w?v:w);
+print(largest2);
 }
