@@ -20,7 +20,7 @@ void main(){
   print('s%=t   =${s%=t}');
 
 
-  print('Uniary operators');
+  print('Unary operators');
   int a=10;
   print('++a =${++a}');
   print('--a =${--a}');
